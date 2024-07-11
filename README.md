@@ -8,11 +8,17 @@ Features
 ⚫️ Clear Canvas: Clear the canvas using a specific gesture.
 
 ▸ Create and activate a virtual environment (optional but recommended)
+```
 python3 -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+```
+On Windows use 
+```
+venv\Scripts\activate
+```
 ▸ Install the required modules
-pip install opencv
-pip install mediapipe
-pip install numpy
+
+```
+pip install -r requirements.txt
+```
+
 
